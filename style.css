@@ -226,7 +226,7 @@
     align-content: center;
     padding-bottom: 7px;
     margin-top: 10px;
-    margin-left: 420px;
+    margin-left: 434px;
     margin-bottom: 15px;
     
 }
@@ -376,5 +376,8 @@
 @media only screen and (max-width: 480px) {
     .middle-part {
       border-left: none;
+    }
+    .send{
+        margin-left: 200px;
     }
   }
