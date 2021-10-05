@@ -219,7 +219,7 @@
     align-content: center;
     padding-bottom: 7px;
     margin-top: 10px;
-    margin-left: 395px;
+    margin-left: 420px;
     margin-bottom: 15px;
     
 }
@@ -289,9 +289,9 @@
     border-radius: 15px;
     /* margin:6px; */
 }
-.right-part-section{
+/* .right-part-section{
     padding: 5px;
-}
+} */
 
 .last-image{
     width: 100%;
@@ -306,23 +306,24 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    padding: 2px;
+    padding: 7px;
 }
 .suffer{
     color: #B5BBC8;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    
+   
     
 }
 .suffer-from{
     margin-bottom: 10px;
-    padding: 2px;
+    padding: 7px;
 
 }
 .progress-section{
     display: flex;
+    padding: 7px;
 }
 .progress{
     width: 180px;
@@ -340,6 +341,7 @@
     font-style: normal;
     margin-left: 4px;
     
+    
 
     
 }
@@ -349,6 +351,7 @@
     padding: 3px;
     margin: 5px;
     padding-top: 7px;
+    padding-bottom: 2px;
 }
 .icon{
     color: #9CA4B6;
