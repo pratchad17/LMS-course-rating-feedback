@@ -49,7 +49,7 @@
     padding: 6px;
 }
 .ratings-nav{
-    padding: 15px;
+    padding-left: 15px;
 }
 .ratings-title{
     padding: 15px;
@@ -140,6 +140,7 @@
 
 .review-side-review{
     border-bottom:1px solid #868686 ;
+    padding-bottom: 10px;
 
 
 }
@@ -228,9 +229,16 @@
     margin-top: 10px;
     margin-left: 434px;
     margin-bottom: 15px;
+    font-size: small;
+    margin-bottom: 3px;
+    font-weight: 500;
+    font-style: normal;
+    color:  #666666;
+    
+    
     
 }
-.send-rate{
+/* .send-rate{
     font-size: small;
     margin-bottom: 3px;
     font-weight: 500;
@@ -239,7 +247,7 @@
    
    
 
-}
+} */
 .middle-last-part{
    
     justify-content: center;
@@ -284,27 +292,35 @@
 }
 
 .last-part{
-    margin: 4px;
+    margin-left: 4px;
+    width: 285px;
+    height: 368px;
     
 }
 
 .right-part{
-    width: 285px;
-    height: 368px;
+    
     
     border: 1px solid #868686;
-    border-radius: 15px;
+    border-radius: 10px;
     /* margin:6px; */
 }
-/* .right-part-section{
-    padding: 5px;
-} */
+.right-part-section{
+    object-fit: cover;
+    overflow: hidden;
+}
+.image{
+    width: 100%;
+    /* height: 160px; */
+}
 
 .last-image{
-    width: 100%;
-    height: 160px;
+    object-fit: cover;
+    overflow: hidden;
+    
     padding: 0px;
     margin-bottom: 2px;
+    
     
 
 }
@@ -314,6 +330,8 @@
     font-style: normal;
     font-weight: 700;
     padding: 7px;
+    object-fit: cover;
+    overflow: hidden;
 }
 .suffer{
     color: #B5BBC8;
@@ -324,8 +342,10 @@
     
 }
 .suffer-from{
-    margin-bottom: 10px;
-    padding: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+  object-fit: cover;
+  overflow: hidden;
 
 }
 .progress-section{
